@@ -1,0 +1,32 @@
+.sectionHeader h1  {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.webProject {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectCard {
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 1%;
+
+}
+
+.projectCard button {
+    width: 100%;
+    margin-bottom: 1.5%;
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+}
+
+.projectCard h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

@@ -1,45 +1,65 @@
 import React from 'react';
-import {Card, Button, CardImg, CardTitle, CardText,CardSubtitle, CardBody, Row, Col} from 'reactstrap';
+import {Card, Button, CardImg, CardTitle, CardSubtitle, CardBody, Col, Row} from 'reactstrap';
+import './projects.css';
 
-const WebProjects = () => {
+const WebProjects = (props) => {
     return (
-    <Row>
-        <Col sm="4">
-            <Card className="projectCard">
-                <CardImg src="./img/flw_mockups.jpg" />
-                <CardBody>
-                    <CardTitle>Card Title</CardTitle>
-                    <CardSubtitle>Card Subtitle</CardSubtitle>
-                    <CardText>some text for the card if you want. Hell keep writing just to see how long this gets. </CardText>
-                    <Button>Button Text</Button>
-                </CardBody>
-            </Card>
-        </Col>
+    <div>
+    <Col>
+        <Row className="sectionHeader">
+            <h1>Web</h1>
+        </Row>
 
-        <Col sm="4">
+        <Row classNam="webProjects">
             <Card className="projectCard">
-                <CardImg src="../img/flw_mockups.jpg" />
+                <CardImg className ="" src="./img/flw_mockups.jpg" />
                 <CardBody>
-                    <CardTitle>Card Title</CardTitle>
-                    <CardSubtitle>Card Subtitle</CardSubtitle>
-                    <CardText>some text for the card if you want. Hell keep writing just to see how long this gets. </CardText>
-                    <Button>Button Text</Button>
+                    <CardTitle><h1>French Lick Winery</h1></CardTitle>
+                    <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
+                    <Button>About The Project</Button>
+                    <Button>View The Site</Button>
                 </CardBody>
             </Card>
-        </Col>
-
-        <Col sm="4">
             <Card className="projectCard">
-                <CardImg src="../img/flw_mockups.jpg" />
+                <CardImg className ="" src="./img/flw_mockups.jpg" />
                 <CardBody>
-                    <CardTitle>Card Title</CardTitle>
-                    <CardSubtitle>Card Subtitle</CardSubtitle>
-                    <CardText>some text for the card if you want. Hell keep writing just to see how long this gets. </CardText>
-                    <Button>Button Text</Button>
+                    <CardTitle><h1>Spirits of French Lick</h1></CardTitle>
+                    <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
+                    <Button>About The Project</Button>
+                    <Button>View The Site</Button>
                 </CardBody>
             </Card>
-        </Col>
-    </Row>
+            <Card className="projectCard">
+                <CardImg className ="" src="./img/flw_mockups.jpg" />
+                <CardBody>
+                    <CardTitle><h1>Replate</h1></CardTitle>
+                    <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
+                    <Button>About The Project</Button>
+                    <Button>View The Site</Button>
+                </CardBody>
+            </Card>
+            <Card className="projectCard">
+                <CardImg className ="" src="./img/flw_mockups.jpg" />
+                <CardBody>
+                    <CardTitle><h1>French Lick Winery</h1></CardTitle>
+                    <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
+                    <Button>About The Project</Button>
+                    <Button>View The Site</Button>
+                </CardBody>
+            </Card>
+            <Card className="projectCard">
+                <CardImg className ="" src="./img/flw_mockups.jpg" />
+                <CardBody>
+                    <CardTitle><h1>French Lick Winery</h1></CardTitle>
+                    <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
+                    <Button>About The Project</Button>
+                    <Button>View The Site</Button>
+                </CardBody>
+            </Card>
+        </Row>
+    </Col>
+    </div>
     );
+
 }
 export default WebProjects;
