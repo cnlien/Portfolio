@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="heroBanner">
-        <img className="heroImage" src="./img/250x250.png" alt="Pic of Chris"/>
+        <img className="heroImage" src="./img/profile-pic.jpg" alt="Pic of Chris"/>
 
         <h1 className="heroName">Chris Lien</h1>
         <h2 className="heroLocation">Indianapolis, IN, USA</h2>
