@@ -42,7 +42,7 @@ const WebProjects = (props) => {
                     <CardBody>
                        <CardTitle><h1>Replate App</h1></CardTitle>
                        <CardSubtitle><p>HTML/CSS, Less, UI/UX</p></CardSubtitle>
-                       <div className="projectButton">
+                       <div className="projectButtons">
                         <Button>About The Project</Button>
                         <Button>View The Site</Button>
                        </div>
