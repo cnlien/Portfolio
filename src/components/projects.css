@@ -17,6 +17,14 @@
 
 }
 
+.projectCard card-body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.projectButtons {
+    justify-content: flex-end;
+}
 .projectCard button {
     width: 100%;
     margin-bottom: 1.5%;
