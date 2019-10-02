@@ -12,8 +12,10 @@ function App() {
         <h2 className="heroLocation">Indianapolis, IN, USA</h2>
         <h3 className="heroSkill">Front End Web Developer | Graphic Designer</h3>
 
-        <div className="socialLinks">
+        <div className="socialLinksContainer">
+          <a href="http://www.github.com/cnlien"><img className='socialLinks githubLogo' src='./img/github.svg' alt='Git Hub Logo'/></a>
 
+          <a href="http://www.linkedin.com/in/cnlien"><img className='socialLinks linkedinLogo' src='./img/linkedin.svg' alt='LinkedIn Logo'/></a>
         </div>
 
       </div>

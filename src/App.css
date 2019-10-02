@@ -31,7 +31,7 @@
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  height:85vh;
+  height:100vh;
   width: 100%;
   background: transparent linear-gradient(1deg, #FFFFFF 0%, #A2A2A2 100%) 0% 0% no-repeat padding-box;
 }
@@ -58,9 +58,24 @@ h2.heroLocation {
   text-transform: uppercase;
   font-weight: bolder;
 }
+
 h3.heroSkill {
   font-size: .9rem;
   font-family: Helvetica, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.socialLinksContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.socialLinks {
+  width: 30px;
+  margin: 3px;
 }
