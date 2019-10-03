@@ -48,7 +48,7 @@ const WebProjects = () => {
                        <CardSubtitle><p>HTML/CSS, Less, UI/UX</p></CardSubtitle>
                        <div className="projectButtons">
                             <Button>About The Project</Button>
-                            <a href="https://cnlien.github.io/Replate-UI/"><Button>View The Site</Button></a>
+                            <a href="https://build-weeks-replate.github.io/UI/"><Button>View The Site</Button></a>
                        </div>
                     </CardBody>
                 </Card>
