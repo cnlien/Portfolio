@@ -2,7 +2,7 @@ import React from 'react';
 import {Card, Button, CardImg, CardTitle, CardSubtitle, CardBody, Col, Row} from 'reactstrap';
 import './projects.css';
 
-const WebProjects = (props) => {
+const WebProjects = () => {
     return (
     <div>
         <Col>
@@ -18,8 +18,10 @@ const WebProjects = (props) => {
                     <CardBody>
                         <CardTitle><h1>French Lick Winery</h1></CardTitle>
                         <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
-                        <Button>About The Project</Button>
-                        <Button>View The Site</Button>
+                        <div className="projectButtons">
+                            <Button>About The Project</Button>
+                            <a href="http://www.frenchlickwinery.com"><Button>View The Site</Button></a>
+                        </div>
                     </CardBody>
                 </Card>
                 {/*French Lick Winery Card End*/}
@@ -30,8 +32,10 @@ const WebProjects = (props) => {
                     <CardBody>
                        <CardTitle><h1>Spirits of French Lick</h1></CardTitle>
                        <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
-                       <Button>About The Project</Button>
-                       <Button>View The Site</Button>
+                       <div className="projectButtons">
+                            <Button>About The Project</Button>
+                            <a href="http://www.spiritsoffrenchlick.com"><Button>View The Site</Button></a>
+                       </div>
                     </CardBody>
                 </Card>
                 {/*Spirits of French Lick Card End*/}
@@ -43,8 +47,8 @@ const WebProjects = (props) => {
                        <CardTitle><h1>Replate App</h1></CardTitle>
                        <CardSubtitle><p>HTML/CSS, Less, UI/UX</p></CardSubtitle>
                        <div className="projectButtons">
-                        <Button>About The Project</Button>
-                        <Button>View The Site</Button>
+                            <Button>About The Project</Button>
+                            <a href="https://cnlien.github.io/Replate-UI/"><Button>View The Site</Button></a>
                        </div>
                     </CardBody>
                 </Card>
@@ -54,6 +58,5 @@ const WebProjects = (props) => {
         </Col>
     </div>
     );
-
 }
 export default WebProjects;
