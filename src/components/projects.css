@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.projectContainer {
+    margin-bottom: 5%;
+}
+
 .projectCard {
     flex-basis: 300px;
     flex-grow: 1;

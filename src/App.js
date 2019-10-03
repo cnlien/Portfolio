@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import WebProjects from './components/webProjects.js';
+import DesignProjects from './components/designProjects.js';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 
       <div className="container">
         <WebProjects />
+        <DesignProjects/>
       </div>
     </>
 

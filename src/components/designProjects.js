@@ -2,16 +2,16 @@ import React from 'react';
 import {Card, Button, CardImg, CardTitle, CardSubtitle, CardBody, Col, Row} from 'reactstrap';
 import './projects.css';
 
-const WebProjects = () => {
+const DesignProjects = () => {
     return (
     <div className="projectContainer">
         <Col>
             <Row className="sectionHeader">
-                <h1>Web</h1>
+                <h1>Design</h1>
             </Row>
 
             <Row classNam="webProjects">
-    
+
                 {/*French Lick Winery Card Start*/}
                 <Card className="projectCard">
                     <CardImg src="./img/flw_mockups.jpg" />
@@ -59,4 +59,4 @@ const WebProjects = () => {
     </div>
     );
 }
-export default WebProjects;
+export default DesignProjects;
