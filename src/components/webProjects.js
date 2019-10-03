@@ -10,7 +10,15 @@ const WebProjects = () => {
                 <h1>Web</h1>
             </Row>
 
-            <Row classNam="webProjects">
+            <Row className="SkillIconContainer">
+               <img className="skillIcon" src="./img/html5.svg" alt="html icon"/>
+               <img className="skillIcon" src="./img/less.svg" alt="less icon"/>
+               <img className="skillIcon" src="./img/css.svg" alt="css icon"/>
+               <img className="skillIcon" src="./img/javascript.svg" alt="javascript icon"/>
+               <img className="skillIcon" src="./img/react.svg" alt="react icon"/>
+            </Row>
+
+            <Row className="projects">
     
                 {/*French Lick Winery Card Start*/}
                 <Card className="projectCard">
@@ -28,7 +36,7 @@ const WebProjects = () => {
 
                 {/*Spirits of French Lick Card Start*/}
                 <Card className="projectCard">
-                    <CardImg className ="" src="./img/sfl-mockups.jpg" />
+                    <CardImg src="./img/sfl-mockups.jpg" />
                     <CardBody>
                        <CardTitle><h1>Spirits of French Lick</h1></CardTitle>
                        <CardSubtitle><p>HTML/CSS, JavaScript, SquareSpace</p></CardSubtitle>
@@ -42,7 +50,7 @@ const WebProjects = () => {
 
                 {/*Replate Card Start*/}
                 <Card className="projectCard">
-                    <CardImg className ="" src="./img/iphoneMockUp.png" />
+                    <CardImg src="./img/iphoneMockUp.png" />
                     <CardBody>
                        <CardTitle><h1>Replate App</h1></CardTitle>
                        <CardSubtitle><p>HTML/CSS, Less, UI/UX</p></CardSubtitle>

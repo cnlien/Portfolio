@@ -10,7 +10,15 @@ const DesignProjects = () => {
                 <h1>Design</h1>
             </Row>
 
-            <Row classNam="webProjects">
+            <Row className="skillIconContainer">
+               <img className="skillIcon" src="./img/xd.svg" alt="xd icon"/>
+               <img className="skillIcon" src="./img/illustrator.svg" alt="illustrator icon"/>
+               <img className="skillIcon" src="./img/photoshop.svg" alt="photoshop icon"/>
+               <img className="skillIcon" src="./img/indesign.svg" alt="indesign icon"/>
+               <img className="skillIcon" src="./img/dimension.svg" alt="dimension icon"/>
+            </Row>
+
+            <Row className="projects">
 
                 {/*French Lick Winery Card Start*/}
                 <Card className="projectCard">

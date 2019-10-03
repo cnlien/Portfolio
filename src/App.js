@@ -20,7 +20,6 @@ function App() {
 
       </div>
   
-
       <div className="container">
         <WebProjects />
         <DesignProjects/>
