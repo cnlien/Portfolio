@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, Button, CardImg, CardTitle, CardSubtitle, CardBody, Col, Row} from 'reactstrap';
-import './projects.css';
+import './projects.scss';
 
 const DesignProjects = () => {
     return (
