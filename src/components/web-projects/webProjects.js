@@ -3,11 +3,10 @@ import { Col, Row } from 'reactstrap';
 import '../projects.scss';
 
 import data from './webProjData';
-
 import ProjectCard from '../ProjectCard';
 
 
-const WebProjects = (props) => {
+const WebProjects = () => {
 
     const [projects] = useState(data);
     console.log(projects);
@@ -38,6 +37,7 @@ const WebProjects = (props) => {
                             project={web.project}
                             stack={web.stack}
                             url={web.url}
+                            description={web.description}
                         />
                     ))}
                 </Row>

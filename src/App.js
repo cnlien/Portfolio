@@ -4,7 +4,7 @@ import './App.css';
 import { Container } from 'reactstrap'
 
 import WebProjects from './components/web-projects/webProjects.js';
-import DesignProjects from './components/designProjects.js';
+import DesignProjects from './components/design-projects/designProjects.js';
 
 function App() {
   return (
