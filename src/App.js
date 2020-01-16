@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
-import WebProjects from './components/webProjects.js';
-import DesignProjects from './components/designProjects.js';
+
+import { Container } from 'reactstrap'
+
+import WebProjects from './components/web-projects/webProjects.js';
+import DesignProjects from './components/design-projects/designProjects.js';
 
 function App() {
   return (
@@ -21,11 +24,10 @@ function App() {
 
       </div>
 
-      {/*   
-      <div className="container">
+      <Container>
         <WebProjects />
         <DesignProjects/>
-      </div> */}
+      </Container>
     </>
 
   );
