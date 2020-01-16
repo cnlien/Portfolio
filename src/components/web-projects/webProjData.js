@@ -59,4 +59,23 @@ export default [
 
     },
 
+    {
+        id: 7,
+        project: 'Crypto Tracker',
+        stack: 'React',
+        img: './img/crypto-tracker-darkmode.jpg',
+        url: 'https://lien-darkmode.netlify.com/',
+        description: 'This website repository was provided to us  by Lambda School with the goal of creating a toggle button that would switch the page from light-mode to dark-mode. The only role I had in this project was programming the toggle button to trigger the new styling. It was a fun project that allowed me to practice using Hooks and State.'
+
+    },
+
+    {
+        id: 8,
+        project: 'To Do List',
+        stack: 'React',
+        img: './img/to-do-list.jpg',
+        url: 'https://lien-react-todo.netlify.com/',
+        description: 'This was a project I built while attending Lambda School that was designed to practice hooks and become more familiar with managing state. This is a simple to-do app that allows the user to add items to the list, click on them to mark them done and then clear the completed items from the list. It was built using Reactstrap components.'
+    },
+
 ]
