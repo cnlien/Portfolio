@@ -16,7 +16,10 @@ const DesignProjects = () => {
             <Row className="sectionHeader">
                 <h1>Design</h1>
             </Row>
+            <Row>
+            <h4>This portflio is a work in progress. I'll get to these eventually. Here is the software I'm an expert in.</h4>
 
+            </Row>
             <Row className="skillIconContainer">
                <img className="skillIcon" src="./img/xd.svg" alt="xd icon"/>
                <img className="skillIcon" src="./img/illustrator.svg" alt="illustrator icon"/>
@@ -25,7 +28,7 @@ const DesignProjects = () => {
                <img className="skillIcon" src="./img/dimension.svg" alt="dimension icon"/>
             </Row>
 
-            <Row className="projects">
+            {/* <Row className="projects">
                 {projects.map (design => (
                     <ProjectCard
                         key={design.id}
@@ -36,7 +39,7 @@ const DesignProjects = () => {
                         description={design.description}
                     />
                 ))}
-            </Row>
+            </Row> */}
         </Col>
     </div>
     );

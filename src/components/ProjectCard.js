@@ -10,6 +10,8 @@ const ProjectCard = (props) => {
         <Card className="projectCard">
             <CardImg src={props.img} alt={props.project} />
             <CardBody>
+            <CardTitle><h1>{props.project}</h1></CardTitle>
+
                 <div className="projectButtons">
                     <Button onClick={toggle}>About The Project</Button>
                     <Modal isOpen={modal} toggle={toggle}>
@@ -26,7 +28,6 @@ const ProjectCard = (props) => {
                     </Modal>
                     <a href={props.url} target="_blank" rel="noopener noreferrer"><Button>View The Site</Button></a>
                 </div>
-                <CardTitle><h1>{props.project}</h1></CardTitle>
                 <CardSubtitle><p>{props.stack}</p></CardSubtitle>
             </CardBody>
         </Card>
