@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Col, Row } from 'reactstrap';
-import '../projects.scss';
+import '../../styles/projects.scss';
 
 import data from './webProjData';
 import ProjectCard from '../ProjectCard';
@@ -9,8 +9,6 @@ import ProjectCard from '../ProjectCard';
 const WebProjects = () => {
 
     const [projects] = useState(data);
-    console.log(projects);
-
 
     return (
         
@@ -38,6 +36,7 @@ const WebProjects = () => {
                             stack={web.stack}
                             url={web.url}
                             description={web.description}
+                            projectlink={web.projectlink}
                         />
                     ))}
                 </Row>

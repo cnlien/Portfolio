@@ -1,15 +1,20 @@
 import React from 'react';
-import './App.css';
+import './styles/App.scss';
+import './styles/projects.scss'
 
-import { Container } from 'reactstrap'
+import { Route } from 'react-router-dom';
 
-import WebProjects from './components/web-projects/webProjects.js';
-import DesignProjects from './components/design-projects/designProjects.js';
+import { Container } from 'reactstrap';
+
+import HomePage from './components/HomePage';
+
+// WEB PROJECT COMPONENTS
+import FrenchLickWinery from './components/web-projects/project-components/FrenchLickWinery';
 
 function App() {
   return (
     <>
-      <div className="heroBanner">
+      {/* <div className="heroBanner">
         <img className="heroImage" src="./img/profile-pic.jpg" alt="Pic of Chris"/>
 
         <h1 className="heroName">Chris Lien</h1>
@@ -23,10 +28,16 @@ function App() {
         </div>
 
       </div>
-
+      
       <Container>
         <WebProjects />
         <DesignProjects/>
+      </Container> */}
+
+      <Route exact path="/" component={ HomePage } />
+
+      <Container>
+        <Route path='/frenchlickwinery' component={ FrenchLickWinery } />
       </Container>
     </>
 

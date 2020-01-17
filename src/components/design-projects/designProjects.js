@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Col, Row } from 'reactstrap';
-import '../projects.scss';
+import '../../styles/projects.scss';
 
 import data from './designProjData';
 import ProjectCard from '../ProjectCard';
