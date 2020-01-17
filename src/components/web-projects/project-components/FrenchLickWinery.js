@@ -11,7 +11,7 @@ import {
     CarouselIndicators,
 } from 'reactstrap';
 
-// import ImageGallery from 'react-image-gallery';
+import Navigation from '../../Navigation';
 
 const FrenchLickWinery = () => {
 
@@ -64,7 +64,7 @@ const FrenchLickWinery = () => {
       });
 
     return(
-        <Container className="project-details">
+        <div className="project-details">
             <div className="project-intro">
                 <Jumbotron className="project-title">
                     <div className="project-image">
@@ -90,14 +90,10 @@ const FrenchLickWinery = () => {
                     {technology}
                 </div>
             </div>
-            
+
             <div className="project-screens">
                 <h1>Screenshots</h1>
-                <Carousel
-                    activeIndex={activeIndex}
-                    next={next}
-                    previous={previous}
-                >
+                <Carousel activeIndex={activeIndex} next={next} previous={previous}>
                     <CarouselIndicators items={galleryImages} activeIndex={activeIndex} onClickHandler={goToIndex} />
                     {slides}
                     <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
@@ -105,7 +101,7 @@ const FrenchLickWinery = () => {
                 </Carousel>
             </div>
 
-        </Container>
+        </div>
     );
 }
 
