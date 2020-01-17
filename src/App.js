@@ -18,8 +18,8 @@ function App() {
         <br/>
         <p>While I work on this portfolio, connect with me.</p>
         <div className="socialLinksContainer">
-          <a href="http://www.github.com/cnlien"><img className='socialLinks githubLogo' src='./img/github.svg' alt='Git Hub Logo'/></a>
-          <a href="http://www.linkedin.com/in/cnlien"><img className='socialLinks linkedinLogo' src='./img/linkedin.svg' alt='LinkedIn Logo'/></a>
+          <a href="http://www.github.com/cnlien"><img className='socialLinks githubLogo' src='./img/icons/github.svg' alt='Git Hub Logo'/></a>
+          <a href="http://www.linkedin.com/in/cnlien"><img className='socialLinks linkedinLogo' src='./img/icons/linkedin.svg' alt='LinkedIn Logo'/></a>
         </div>
 
       </div>

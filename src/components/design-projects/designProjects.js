@@ -21,11 +21,11 @@ const DesignProjects = () => {
 
             </Row>
             <Row className="skillIconContainer">
-               <img className="skillIcon" src="./img/xd.svg" alt="xd icon"/>
-               <img className="skillIcon" src="./img/illustrator.svg" alt="illustrator icon"/>
-               <img className="skillIcon" src="./img/photoshop.svg" alt="photoshop icon"/>
-               <img className="skillIcon" src="./img/indesign.svg" alt="indesign icon"/>
-               <img className="skillIcon" src="./img/dimension.svg" alt="dimension icon"/>
+               <img className="skillIcon" src="./img/icons/xd.svg" alt="xd icon"/>
+               <img className="skillIcon" src="./img/icons/illustrator.svg" alt="illustrator icon"/>
+               <img className="skillIcon" src="./img/icons/photoshop.svg" alt="photoshop icon"/>
+               <img className="skillIcon" src="./img/icons/indesign.svg" alt="indesign icon"/>
+               <img className="skillIcon" src="./img/icons/dimension.svg" alt="dimension icon"/>
             </Row>
 
             {/* <Row className="projects">
