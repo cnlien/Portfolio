@@ -5,13 +5,12 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
   NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
+  Badge
 } from 'reactstrap';
 
 const Navigation = (props) => {
@@ -21,29 +20,49 @@ const Navigation = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar className="nav-bar" color="light" light expand="md">
+        <NavbarBrand className="nav-brand">
+          <NavLink dark href="/">Christopher Lien</NavLink>
+        </NavbarBrand>
+
         <NavbarToggler onClick={toggle} />
+
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink href="https://github.com/cnlien">GitHub</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="https://linkedin.com/in/cnlien">LinkedIn</NavLink>
-            </NavItem>
-
-            <UncontrolledDropdown nav inNavbar>
+            <UncontrolledDropdown className="nav-dropdown" nav inNavbar>
               <DropdownToggle nav caret>
                 Web Projects
               </DropdownToggle>
-              <DropdownMenu right>
+              <DropdownMenu left>
                 <DropdownItem>
-                    <NavLink href="/frenchlickwinery">French Lick Winery</NavLink>
+                    <NavLink href="/frenchlickwinery">French Lick Winery <Badge>New</Badge></NavLink>
+                </DropdownItem>
+                <DropdownItem>
+                    <NavLink href="/spiritsoffrenchlick">Spirits of French Lick <Badge>New</Badge></NavLink>
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown>
+
+            <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Connect
+              </DropdownToggle>
+
+              <DropdownMenu left>
+                <DropdownItem>
+                  <NavLink href="https://github.com/cnlien">
+                    <img className="nav-icon" src="../img/icons/github.svg" alt="Github Icon" /> GitHub
+                  </NavLink>
+                </DropdownItem>
+
+                <DropdownItem>
+                  <NavLink href="https://linkedin.com/in/cnlien">
+                    <img className="nav-icon" src="../img/icons/linkedin.svg" alt="LinkedIn Icon" /> LinkedIn
+                  </NavLink>
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Christopher Lien | Developer & Designer</NavbarText>
         </Collapse>
       </Navbar>
     </div>

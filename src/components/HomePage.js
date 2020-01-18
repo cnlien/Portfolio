@@ -10,8 +10,6 @@ const HomePage = () => {
 
     return (
         <>
-                    <Navigation />
-
             <div className="heroBanner">
                 <img className="heroImage" src="./img/profile-pic.jpg" alt="Pic of Chris"/>
 

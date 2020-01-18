@@ -71,8 +71,41 @@ export default [
         img: './img/web-projects/sfl-mockups.jpg',
         url: 'https://www.spiritsoffrenchlick.com',
         description: 'This website was build in conjunction with the French Lick Winery website using the Squarespace Platform. The goal for this site was to be more informational than anything. The marketing site was created with visitors in mind. The UI guides the user through the site where they can access more infomration about the history of the distillery, a description of their spirits, and of course how they can plan their visit.',
-        projectlink:'/',
+        projectlink:'/spiritsoffrenchlick',
+        galleryImages:
+            [
+              {
+                src: '',
+                altText: '',
+              },
+            ],
+        technologyLogos:
+            [
+              {   
+                src: './img/icons/html5.svg',
+                alt: "HTML5",
+              },
 
+              {   
+                src: './img/icons/css.svg',
+                alt: "CSS",
+              },
+
+              {   
+                src: './img/icons/javascript.svg',
+                alt: "Javascript",
+              },
+
+              {   
+                src: './img/icons/javascript.svg',
+                alt: "Squarespace",
+              },
+
+              {   
+                src: './img/icons/less.svg',
+                alt: "Less",
+              },
+            ]
     },
 
     {

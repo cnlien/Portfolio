@@ -10,17 +10,17 @@ import {
     CarouselIndicators,
 } from 'reactstrap';
 
-const FrenchLickWinery = () => {
+const SpirtsOfFrenchLick = () => {
 
-    const [projectData] = useState(data[0]);
+    const [projectData] = useState(data[1]);
 
     // THESE MANAGE THE CAROUSEL STATE
-    const [galleryImages] = useState(data[0].galleryImages);
+    const [galleryImages] = useState(data[1].galleryImages);
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
 
     // THIS MANAGES TECHNOLOGY LOGOS
-    const [technologyLogos] = useState(data[0].technologyLogos);
+    const [technologyLogos] = useState(data[1].technologyLogos);
     console.log(technologyLogos);
 
     const technology = technologyLogos.map((logo) => {
@@ -102,4 +102,4 @@ const FrenchLickWinery = () => {
     );
 }
 
-export default FrenchLickWinery;
+export default SpirtsOfFrenchLick;
