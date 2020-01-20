@@ -4,7 +4,6 @@ import { Container } from 'reactstrap';
 
 import WebProjects from './web-projects/webProjects';
 import DesignProjects from './design-projects/designProjects.js';
-import Navigation from './Navigation';
 
 const HomePage = () => {
 

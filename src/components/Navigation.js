@@ -10,7 +10,6 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  Badge
 } from 'reactstrap';
 
 import webdata from './web-projects/webProjData';
@@ -19,7 +18,6 @@ import DropdownItems from './DropdownItems';
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [webLinks] = useState(webdata);
-  console.log("webdata ", webLinks)
   
   const toggle = () => setIsOpen(!isOpen);
 

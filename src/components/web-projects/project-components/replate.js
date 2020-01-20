@@ -21,7 +21,6 @@ const Replate = () => {
 
     // THIS MANAGES TECHNOLOGY LOGOS
     const [technologyLogos] = useState(data[2].technologyLogos);
-    console.log(technologyLogos);
 
     const technology = technologyLogos.map((logo) => {
         return (

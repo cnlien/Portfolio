@@ -171,7 +171,35 @@ export default [
         img: './img/web-projects/nasa-potd.jpg',
         url: 'https://lien-nasa-photo.now.sh/',
         description: 'This was a fun side project I did to practice some of the new React skills I had learned at the time. This simple React App makes an axios call to a NASA API that displays their Photo of the Day. A Modal is included that contains the information on the photograph provided from the API. A link is included in the modal to download the image should the user want to.',
-        projectlink:'',
+        projectlink:'/nasaphotooftheday',
+        galleryTitle: 'Screenshots',
+        galleryImages:
+            [
+                {
+                    src: './img/web-projects/nasa-photo/image-1.png',
+                    altText: 'Nasa Photo of the Day App Screenshots',
+                },
+
+                {
+                    src: './img/web-projects/nasa-photo/image-2.png',
+                    altText: 'Nasa Photo of the Day App Screenshots',
+                },
+
+            ],
+        
+        technologyLogos:
+            [
+                {
+                    src: './img/icons/react.svg',
+                    alt: "React",
+                },
+
+                {
+                    src: './img/icons/less.svg',
+                    alt: "Less",
+                },
+            ],
+
     },
 
     {
