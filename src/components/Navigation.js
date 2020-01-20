@@ -13,9 +13,14 @@ import {
   Badge
 } from 'reactstrap';
 
+import webdata from './web-projects/webProjData';
+import DropdownItems from './DropdownItems';
+
 const Navigation = (props) => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const [webLinks] = useState(webdata);
+  console.log("webdata ", webLinks)
+  
   const toggle = () => setIsOpen(!isOpen);
 
   return (
@@ -34,12 +39,15 @@ const Navigation = (props) => {
                 Web Projects
               </DropdownToggle>
               <DropdownMenu left>
-                <DropdownItem>
-                    <NavLink href="/frenchlickwinery">French Lick Winery <Badge>New</Badge></NavLink>
-                </DropdownItem>
-                <DropdownItem>
-                    <NavLink href="/spiritsoffrenchlick">Spirits of French Lick <Badge>New</Badge></NavLink>
-                </DropdownItem>
+
+                {webLinks.map (webLink => (
+                  <DropdownItems
+                    key={webLink.id}
+                    projectlink={webLink.projectlink}
+                    project = {webLink.project}
+                  />
+                ))}
+
               </DropdownMenu>
             </UncontrolledDropdown>
 

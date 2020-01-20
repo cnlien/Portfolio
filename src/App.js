@@ -12,6 +12,7 @@ import HomePage from './components/HomePage';
 // WEB PROJECT COMPONENTS
 import FrenchLickWinery from './components/web-projects/project-components/FrenchLickWinery';
 import SpirtsOfFrenchLick from './components/web-projects/project-components/SpirtsOfFrenchLick';
+import Replate from './components/web-projects/project-components/replate';
 
 function App() {
   return (
@@ -40,8 +41,10 @@ function App() {
         <Route exact path="/" component={ HomePage } />
 
         <Container>
+
           <Route path='/frenchlickwinery' component={ FrenchLickWinery } />
           <Route path='/spiritsoffrenchlick' component={ SpirtsOfFrenchLick } />
+          <Route path='/replate' component={ Replate } />
 
         </Container>
       </Switch>
