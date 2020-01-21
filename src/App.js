@@ -13,6 +13,7 @@ import HomePage from './components/HomePage';
 import FrenchLickWinery from './components/web-projects/project-components/FrenchLickWinery.js';
 import SpirtsOfFrenchLick from './components/web-projects/project-components/SpirtsOfFrenchLick.js';
 import NasaPOTD from './components/web-projects/project-components/NasaPOTD.js';
+import Replate from './components/web-projects/project-components/Replate';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Container>
           <Route path='/frenchlickwinery' component={ FrenchLickWinery } />
           <Route path='/spiritsoffrenchlick' component={ SpirtsOfFrenchLick } />
-          {/* <Route path='/replate' component={ Replate } /> */}
+          <Route path='/replate' component={ Replate } />
           <Route path='/nasaphotooftheday' component={ NasaPOTD } />
         </Container>
       </Switch>
