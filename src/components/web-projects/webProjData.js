@@ -209,9 +209,47 @@ export default [
         img: './img/web-projects/potluck-planner.jpg',
         url: 'https://potluckplan.netlify.com/',
         description: 'Potluck Planner was the product of my second Build Week at Lambda School. My role in this project was to route our React App and style the components to fit the UI/UX design. I designed the logo and user interface as well. This was my first experience building a React App from start to finish. The website is styled mainly with Reactstrap with some Bootstrap components also included. The goal of the project was to create an app where you could post a potluck, recipies and a list of items you would like at your party and a user could claim the item as well as RSVP to your event.',
-        projectlink:'',
+        projectlink:'/potluckplanner',
+        galleryTitle: 'Screenshots',
+        galleryImages:
+            [
+                {
+                    src: './img/web-projects/potluckplanner/image-1.png',
+                    altText: 'Potluck Planner Screenshots',
+                },
+
+                {
+                    src: './img/web-projects/potluckplanner/image-2.png',
+                    altText: 'Potluck Planner Screenshots',
+                },
+
+                {
+                    src: './img/web-projects/potluckplanner/image-3.png',
+                    altText: 'Potluck Planner Screenshots',
+                },
+
+                {
+                    src: './img/web-projects/potluckplanner/image-4.png',
+                    altText: 'Potluck Planner Screenshots',
+                },
+
+            ],
+        
+        technologyLogos:
+            [
+                {
+                    src: './img/icons/react.svg',
+                    alt: "React",
+                },
+
+                {
+                    src: './img/icons/less.svg',
+                    alt: "Less",
+                },
+            ],
 
     },
+
 
     {
         id: 6,
@@ -220,8 +258,44 @@ export default [
         img: './img/web-projects/fish-friends.jpg',
         url: 'https://fish-friends.nicholasgallucci4.now.sh/',
         description: 'Fish Friends was the third and most recent Build Week React App at Lambda School. My role in this project was to create components that satisfied all CRUD operations as well as design the UI and UX. Along with another React Developer we were able to build a client side login that receives a token from the API to allow access to private routes within the app. This website was designed using Material UI and Reactstrap. The main goal of the project was to create a dashboard for the user to log their most recent catch, the location and species.',
-        projectlink:'',
+        projectlink:'/fishfriends',
+        galleryTitle: 'Screenshots',
+        galleryImages:
+            [
+                {
+                    src: './img/web-projects/fishfriends/image-1.png',
+                    altText: 'Fish Friends Screenshots',
+                },
 
+                {
+                    src: './img/web-projects/fishfriends/image-2.png',
+                    altText: 'Fish Friends Screenshots',
+                },
+                
+                {
+                    src: './img/web-projects/fishfriends/image-3.png',
+                    altText: 'Fish Friends Screenshots',
+                },
+                
+                {
+                    src: './img/web-projects/fishfriends/image-4.png',
+                    altText: 'Potluck Planner Screenshots',
+                },
+                
+            ],
+        
+        technologyLogos:
+            [
+                {
+                    src: './img/icons/react.svg',
+                    alt: "React",
+                },
+
+                {
+                    src: './img/icons/less.svg',
+                    alt: "Less",
+                },
+            ],
     },
 
     {
@@ -231,7 +305,28 @@ export default [
         img: './img/web-projects/crypto-tracker-darkmode.jpg',
         url: 'https://lien-darkmode.netlify.com/',
         description: 'This website repository was provided to us  by Lambda School with the goal of creating a toggle button that would switch the page from light-mode to dark-mode. The only role I had in this project was programming the toggle button to trigger the new styling. It was a fun project that allowed me to practice using Hooks and State.',
-        projectlink:'',
+        projectlink:'/cryptotracker',
+        galleryTitle: 'Screenshots',
+        galleryImages:
+            [
+                {
+                    src: './img/web-projects/cryptotracker/image-1.png',
+                    altText: 'Fish Friends Screenshots',
+                },
+
+                {
+                    src: './img/web-projects/cryptotracker/image-2.png',
+                    altText: 'Fish Friends Screenshots',
+                },
+            ],
+        
+        technologyLogos:
+            [
+                {
+                    src: './img/icons/react.svg',
+                    alt: "React",
+                },
+            ],
 
     },
 

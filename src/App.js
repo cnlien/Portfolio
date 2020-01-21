@@ -14,6 +14,9 @@ import FrenchLickWinery from './components/web-projects/project-components/Frenc
 import SpirtsOfFrenchLick from './components/web-projects/project-components/SpirtsOfFrenchLick.js';
 import NasaPOTD from './components/web-projects/project-components/NasaPOTD.js';
 import Replate from './components/web-projects/project-components/Replate';
+import PotluckPlanner from './components/web-projects/project-components/PotluckPlanner';
+import FishFriends from './components/web-projects/project-components/FishFriends';
+import CryptoTracker from './components/web-projects/project-components/CryptoTracker';
 
 function App() {
   return (
@@ -27,6 +30,10 @@ function App() {
           <Route path='/spiritsoffrenchlick' component={ SpirtsOfFrenchLick } />
           <Route path='/replate' component={ Replate } />
           <Route path='/nasaphotooftheday' component={ NasaPOTD } />
+          <Route path='/potluckplanner' component={ PotluckPlanner } />
+          <Route path='/fishfriends' component={ FishFriends } />
+          <Route path='/cryptotracker' component={ CryptoTracker } />
+
         </Container>
       </Switch>
     </>
