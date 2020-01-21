@@ -36,10 +36,13 @@ const Navigation = (props) => {
               <DropdownToggle nav caret>
                 Web Projects
               </DropdownToggle>
+              
               <DropdownMenu left>
+
                 <DropdownItem>
                   <NavLink href="https://github.com/cnlien/Portfolio" alt="Portfolio Repo Link" target="_blank"><img className="nav-icon" src="../img/icons/github.svg" alt="Github Icon" /> View This Repo</NavLink>
                 </DropdownItem>
+
                 <DropdownItem divider />
                 {webLinks.map (webLink => (
                   <DropdownItems
