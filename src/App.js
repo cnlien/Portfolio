@@ -12,7 +12,6 @@ import HomePage from './components/HomePage';
 // WEB PROJECT COMPONENTS
 import FrenchLickWinery from './components/web-projects/project-components/FrenchLickWinery.js';
 import SpirtsOfFrenchLick from './components/web-projects/project-components/SpirtsOfFrenchLick.js';
-import Replate from './components/web-projects/project-components/Replate.js';
 import NasaPOTD from './components/web-projects/project-components/NasaPOTD.js';
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
         <Container>
           <Route path='/frenchlickwinery' component={ FrenchLickWinery } />
           <Route path='/spiritsoffrenchlick' component={ SpirtsOfFrenchLick } />
-          <Route path='/replate' component={ Replate } />
+          {/* <Route path='/replate' component={ Replate } /> */}
           <Route path='/nasaphotooftheday' component={ NasaPOTD } />
         </Container>
       </Switch>
