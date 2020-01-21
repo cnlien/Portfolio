@@ -8774,19 +8774,6 @@ react-error-overlay@^6.0.3:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.4.tgz#0d165d6d27488e660bc08e57bdabaad741366f7a"
   integrity sha512-ueZzLmHltszTshDMwyfELDq8zOA803wQ1ZuzCccXa1m57k1PxSHfflPD5W9YIiTXLs0JTLzoj6o1LuM5N6zzNA==
 
-react-image-gallery@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/react-image-gallery/-/react-image-gallery-1.0.5.tgz#b5fa0e603c5fa4466414afb781570cceba9ed36b"
-  integrity sha512-IdvEF2BAfMJbsR9PIeHY11b+6SaDLWIxDcFwPT1BANcgoSubca2x35gIjkGWMG4P9zYbzUH+JRxCKAOkMt3wKQ==
-  dependencies:
-    clsx "^1.0.4"
-    lodash.debounce "^4.0.8"
-    lodash.isequal "^4.5.0"
-    lodash.throttle "^4.1.1"
-    prop-types "^15.5.8"
-    react-swipeable "^5.2.0"
-    resize-observer-polyfill "^1.5.0"
-
 react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
