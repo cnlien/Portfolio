@@ -1,5 +1,3 @@
-# Chris Lien Portfolio
-
 ## Connect With Me
 - LinkedIn [LinkedIn](https://www.linkedin.com/in/cnlien/)
 
