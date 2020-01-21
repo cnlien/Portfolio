@@ -1,72 +1,22 @@
-<<<<<<< HEAD
-** My Portfolio Site
-=======
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Chris Lien Portfolio
 
-## Available Scripts
+## Connect With Me
+- LinkedIn [LinkedIn](https://www.linkedin.com/in/cnlien/)
 
-In the project directory, you can run:
+## About This Portfolio
+In June 2019 I embarked on a journey to change careers from a UI/UX Designer to a Full Stack Web Developer. After 10 years of designing I thought it was time to take the next step in to building the things I've created. This portfolio is a collection of some of my favorite projects to date. They showcase a variety of my new found skill set including **Javascript, Less, Sass, HTML, React and Node**.
 
-### `npm start`
+This portfolio is built using React.js and is deployed through Netlify.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About Me
+Growing up I knew one thing, I wanted to be Paramedic and a Graphic Designer. During my senior year in high school, I took the steps to join life in public service and began taking EMT classes in the evenings at the local fire station. It was an extra 4 hours or so a night of studying but I didn't care. I turned 18 in March of my senior year and was hired in October for my first EMS job. I was officially on track to the career I dreamed about.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+A life working in EMS yields significant downtime so I started to take on more responsibilities within the community. Throughout that time I was a volunteer firefighter, photographer for the Greencastle Fire Department and a 911 dispatcher. In the midst of all of that, I would take on freelance design work for the various agencies I worked with. After 8 years of working in public service, I changed careers to follow my second passion, and in 2012 I packed my bags and moved to Indianapolis, IN for my first full-time position as a Graphic Designer.
 
-### `npm test`
+It's been a wild ride and an experience I wouldn't change for the world. Presently my career path has led me to a field of web development which is where I find myself today. I am currently a Full-Time Graphic Designer and UI/UX Designer for Slyfox Creative in Greenwood, IN and I also attend Lambda School's Full Stack Web Development Class where I am learning the fundamental tools for a career in software development. My current skill set includes HTML5 CSS3, Less, JavaScript & React. I am also an expert in the Adobe Creative Software Suite including, Photoshop, Illustrator, InDesign, XD, and Dimension.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Outside of my professional life, I enjoy playing Ice Hockey at my local hockey rink where I've been the captain of my hockey team for 7 years. I also enjoy cooking barbeque on my Big Green Egg.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
->>>>>>> 607d7ca3cfaff967749aca943e0df376cd2d3015
+Other small interesting tidbits about myself:
+• I've got a second-degree black belt in Tae Kwon Do.
+• I had a brief career as a TV personality on the television show Paranormal State The New Class
