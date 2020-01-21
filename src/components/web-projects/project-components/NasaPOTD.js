@@ -77,6 +77,7 @@ const NasaPOTD = () => {
 
             <div className="project-description">
                 <h1>About this Project</h1>
+                <p><em>THIS APP DOES NOT SUPPORT VIDEO. IF THE NASA PHOTO OF THE DAY IS A VIDEO FILE THE BACKGROUND WILL BE WHITE</em></p>
                 <p>{projectData.description}</p>
             </div>
 
