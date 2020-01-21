@@ -34,6 +34,10 @@ $break-large: 1200px;
             min-width: 25%;
             flex-grow: 1;
             margin: 1%;
+
+            @media screen and (max-width: $break-tablet) {
+                max-width: 100%;
+            }
             
             .card-img {
                 padding: 2%;
