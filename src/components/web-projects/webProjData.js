@@ -337,7 +337,34 @@ export default [
         img: './img/web-projects/to-do-list.jpg',
         url: 'https://lien-react-todo.netlify.com/',
         description: 'This was a project I built while attending Lambda School that was designed to practice hooks and become more familiar with managing state. This is a simple to-do app that allows the user to add items to the list, click on them to mark them done and then clear the completed items from the list. It was built using Reactstrap components.',
-        projectlink:'',
+        projectlink:'/todolist',
+        galleryTitle: 'Screenshots',
+        galleryImages:
+            [
+                {
+                    src: './img/web-projects/todolist/image-1.png',
+                    altText: 'To Do List Screenshots',
+                },
+
+                {
+                    src: './img/web-projects/todolist/image-2.png',
+                    altText: 'To Do List Screenshots',
+                },
+                
+                {
+                    src: './img/web-projects/todolist/image-3.png',
+                    altText: 'To Do List Screenshots',
+                },
+
+            ],
+        
+        technologyLogos:
+            [
+                {
+                    src: './img/icons/react.svg',
+                    alt: "React",
+                },
+            ],
     },
 
 ]

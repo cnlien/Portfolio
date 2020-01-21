@@ -17,6 +17,7 @@ import Replate from './components/web-projects/project-components/Replate';
 import PotluckPlanner from './components/web-projects/project-components/PotluckPlanner';
 import FishFriends from './components/web-projects/project-components/FishFriends';
 import CryptoTracker from './components/web-projects/project-components/CryptoTracker';
+import ToDoList from './components/web-projects/project-components/ToDoList';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path='/potluckplanner' component={ PotluckPlanner } />
           <Route path='/fishfriends' component={ FishFriends } />
           <Route path='/cryptotracker' component={ CryptoTracker } />
+          <Route path='/todolist' component={ ToDoList } />
 
         </Container>
       </Switch>
