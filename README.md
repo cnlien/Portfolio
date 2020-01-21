@@ -4,7 +4,7 @@
 - LinkedIn [LinkedIn](https://www.linkedin.com/in/cnlien/)
 
 ## About This Portfolio
-In June 2019 I embarked on at [Lambda School](https://www.lambdaschool.com/) a journey to change careers from a UI/UX Designer to a Full Stack Web Developer. After 10 years of designing I thought it was time to take the next step in to building the things I've created. This portfolio is a collection of some of my favorite projects to date. They showcase a variety of my new found skill set including **Javascript, Less, Sass, HTML, React and Node**.
+In June 2019 I embarked on a journey at [Lambda School](https://www.lambdaschool.com/) to change careers from a UI/UX Designer to a Full Stack Web Developer. After 10 years of designing I thought it was time to take the next step in to building the things I've created. This portfolio is a collection of some of my favorite projects to date. They showcase a variety of my new found skill set including **Javascript, Less, Sass, HTML, React and Node**.
 
 This portfolio is built using React.js and is deployed through Netlify.
 
