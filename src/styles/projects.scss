@@ -52,6 +52,20 @@ $break-large: 1200px;
     }
 }
 
+.web-projects {
+    .design-projects {
+        display: none;
+    }
+}
+
+.design-projects {
+
+    .web-projects {
+        display: none;
+    }
+
+}
+
 
 .projectButtons {
     justify-content: flex-end;
@@ -181,8 +195,33 @@ $break-large: 1200px;
 
 .design-card {
 
+    flex-flow: row;
+    flex-grow: 0;
+    flex-basis: 400px;
+    max-width: 30%;
+    margin: 10px;
+
     .design-card-img {
         border-radius: 0;
-        padding: 5px;
+    }
+
+    .design-card-description {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+}
+
+.design-card-modal {
+
+    .design-card-modal-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .project-color {
+        height: 100px;
+        width: 100px;
+        background-color: grey;
     }
 }
+

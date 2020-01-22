@@ -27,7 +27,7 @@ const WebProjects = () => {
                     <img className="skillIcon" src="./img/icons/react.svg" alt="react icon"/>
                 </Row>
 
-                <Row className="projects">
+                <Row className="projects web-projects">
                     {projects.map (web => (
                         <ProjectCard
                             key={web.id}
