@@ -14,7 +14,8 @@ const ProjectCard = (props) => {
                     <Link to={props.projectlink}>
                         <Button>About The Project</Button>
                     </Link>
-                    <a href={props.url} target="_blank" rel="noopener noreferrer"><Button>View The Site</Button></a>
+                    <a href={props.repositoryLink} target="_blank" rel="noopener noreferrer"><Button>Repository</Button></a>
+
                 </div>
                 <CardSubtitle><p>{props.stack}</p></CardSubtitle>
             </CardBody>

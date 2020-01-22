@@ -33,7 +33,7 @@ const WebProjects = () => {
                             key={web.id}
                             img={web.img}
                             project={web.project}
-                            url={web.url}
+                            repositoryLink={web.repositoryLink}
                             description={web.description}
                             projectlink={web.projectlink}
                         />
