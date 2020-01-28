@@ -21,6 +21,7 @@ import ToDoList from './components/web-projects/project-components/ToDoList';
 
 // DESIGN PROJECT COMPONENTS
 import Logos from './components/design-projects/project-components/Logos';
+import VideoProduction from './components/design-projects/project-components/VideoProduction';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
 
           {/* DESIGN ROUTES */}
           <Route path='/logos' component={ Logos } />
+          <Route path='/video' component={ VideoProduction } />
 
         </Container>
       </Switch>

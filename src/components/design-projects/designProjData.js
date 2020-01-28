@@ -193,17 +193,20 @@ export default [
 
     },
 
-    // {
-    //     id: 2,
-    //     img: './img/design-projects/oldhickoryww.jpg',
-    //     project: 'Marketing Campaigns',
-    //     projectlink: '/marketing-campaings',
-    //     navTitle: 'Marketing Campaigns',
-    //     art:
-    //         [
-    //             {
+    {
+        id: 2,
+        img: './img/design-projects/oldhickoryww.jpg',
+        project: 'Video Production',
+        projectlink: '/video',
+        navTitle: 'Video Production',
+        videos:
+            [
+                {
+                    id: 1,
+                    embedUrl: 'https://www.youtube.com/embed/9WZ4M8oNbU0',
+                    title: "WFMS Storytellers Concert Series",
 
-    //             },
-    //         ]
-    // },
+                },
+            ]
+    },
 ]
