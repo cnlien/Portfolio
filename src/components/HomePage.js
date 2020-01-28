@@ -26,7 +26,7 @@ const HomePage = () => {
 
             <Container>
                 <WebProjects />
-                <DesignProjects/>
+                <DesignProjects />
             </Container>
         </>
     )

@@ -72,6 +72,7 @@ const FrenchLickWinery = () => {
                         <h1 className="display-3">{projectData.project}</h1>
                         <h2 className="lead">{projectData.stack}</h2>
                         <a href={projectData.url} target="_blank" rel="noopener noreferrer"><Button block>Visit Site</Button></a>
+                        <a href={projectData.repositoryLink} target="_blank" rel="noopener noreferrer"><Button color="secondary" block>Github Repo</Button></a>
                     </div>
                 </Jumbotron>
             </div>

@@ -52,6 +52,20 @@ $break-large: 1200px;
     }
 }
 
+.web-projects {
+    .design-projects {
+        display: none;
+    }
+}
+
+.design-projects {
+
+    .web-projects {
+        display: none;
+    }
+
+}
+
 
 .projectButtons {
     justify-content: flex-end;
@@ -178,3 +192,67 @@ $break-large: 1200px;
 
     }
 }
+
+.design-card {
+
+    flex-flow: row;
+    flex-grow: 0;
+    flex-basis: 400px;
+    max-width: 30%;
+    margin: 10px;
+    cursor: pointer;
+
+    .design-card-img {
+        border-radius: 0;
+    }
+
+    .design-card-description {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+}
+
+.design-card-modal {
+
+    .design-card-modal-img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .project-info {
+
+        .project-container {
+            margin-bottom: 40px;
+
+        }
+
+        .project-colors {
+            display: flex;
+            flex-flow: row nowrap;
+    
+            .project-color {
+                height: 100px;
+                flex-grow: 1;
+                background-color: grey;
+            }
+        }
+
+        .project-container {
+            border-top: 1px solid #6b6b6b;
+            padding-top: 20px;
+
+            h5 {
+                font-weight: 400;
+                color:#6b6b6b;
+            }
+
+            .project-asset {
+                margin-bottom: 20px;
+            }
+        }
+    
+
+    }
+}
+

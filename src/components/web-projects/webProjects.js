@@ -27,13 +27,14 @@ const WebProjects = () => {
                     <img className="skillIcon" src="./img/icons/react.svg" alt="react icon"/>
                 </Row>
 
-                <Row className="projects">
+                <Row className="projects web-projects">
                     {projects.map (web => (
                         <ProjectCard
                             key={web.id}
                             img={web.img}
                             project={web.project}
-                            url={web.url}
+                            repositoryLink={web.repositoryLink}
+                            buttonText={web.buttonText}
                             description={web.description}
                             projectlink={web.projectlink}
                         />

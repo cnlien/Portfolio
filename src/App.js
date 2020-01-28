@@ -19,6 +19,9 @@ import FishFriends from './components/web-projects/project-components/FishFriend
 import CryptoTracker from './components/web-projects/project-components/CryptoTracker';
 import ToDoList from './components/web-projects/project-components/ToDoList';
 
+// DESIGN PROJECT COMPONENTS
+import Logos from './components/design-projects/project-components/Logos';
+
 function App() {
   return (
     <>
@@ -27,6 +30,7 @@ function App() {
         <Route exact path="/" component={ HomePage } />
 
         <Container>
+          {/* WEB ROUTES */}
           <Route path='/frenchlickwinery' component={ FrenchLickWinery } />
           <Route path='/spiritsoffrenchlick' component={ SpirtsOfFrenchLick } />
           <Route path='/replate' component={ Replate } />
@@ -35,6 +39,9 @@ function App() {
           <Route path='/fishfriends' component={ FishFriends } />
           <Route path='/cryptotracker' component={ CryptoTracker } />
           <Route path='/todolist' component={ ToDoList } />
+
+          {/* DESIGN ROUTES */}
+          <Route path='/logos' component={ Logos } />
 
         </Container>
       </Switch>
