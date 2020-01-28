@@ -5,7 +5,6 @@ import {
     CardImg, 
     Modal, 
     ModalBody,
-    CardFooter,
     ModalHeader,
 } from 'reactstrap';
 
@@ -15,15 +14,10 @@ import ProjectAsset from './design-projects/project-components/ProjectAssets';
 
 const DesignCard = (props) => {
 
-    console.log('props from DesignCard.js', props)
     const [modal, setModal] = useState(false);
     const toggle=()=>setModal(!modal);
-
-    const colors = useState(props.color);
-    console.log("Colors from DesignCard.js", colors);
-
-    const assets = useState(props.assets);
-    console.log("Assets from DesignCard.js", assets);
+    // const colors = useState(props.color);
+    // const assets = useState(props.assets);
     
     return(
         <>
@@ -31,8 +25,8 @@ const DesignCard = (props) => {
                 <CardImg className="design-card-img" src={props.img} onClick={toggle} />
             </Card>
 
-            <Modal isOpen={modal} toggle={toggle} className="design-card-modal" centered size="lg">
-                <ModalHeader>
+            <Modal isOpen={modal} toggle={toggle} className="design-card-modal" centered size="lg" >
+                <ModalHeader toggle={toggle}>
                     {props.project}
                 </ModalHeader>
 

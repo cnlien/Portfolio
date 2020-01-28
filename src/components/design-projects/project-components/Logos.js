@@ -13,22 +13,24 @@ const Logos = () => {
     console.log("projectData from Logos.js", projectData)
     
     return(
-        <>
-        <h1>Logo Designs</h1>
-        <Container>
-            {projectData.map (logos => (
-                <DesignCard
-                    key={logos.id}
-                    img={logos.img}
-                    description={logos.description}
-                    description2={logos.description2}
-                    project={logos.project}
-                    color={logos.colors}
-                    assets={logos.assets}
-                />
-            ))}
+        <Container className="logos">
+            <h1>Logo Designs</h1>
+
+            <div className="logo-cards">
+                {projectData.map (logos => (
+                    <DesignCard
+                        key={logos.id}
+                        img={logos.img}
+                        description={logos.description}
+                        description2={logos.description2}
+                        project={logos.project}
+                        color={logos.colors}
+                        assets={logos.assets}
+                    />
+                ))}
+            </div>
+
         </Container>
-        </>
     );
 }
 

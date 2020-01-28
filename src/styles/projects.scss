@@ -193,25 +193,23 @@ $break-large: 1200px;
     }
 }
 
-.design-card {
+.logo-cards {
 
-    flex-flow: row;
-    flex-grow: 0;
-    flex-basis: 400px;
-    max-width: 30%;
-    margin: 10px;
-    cursor: pointer;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 
-    .design-card-img {
-        border-radius: 0;
+    .design-card {
+        flex-basis: 300px;
+        flex-grow: 0;
+        margin: 10px;
+        cursor: pointer;
+    
+        .design-card-img {
+            border-radius: 0;
+        }
     }
-
-    .design-card-description {
-        text-align: center;
-        padding: 10px 0;
     }
-
-}
 
 .design-card-modal {
 
