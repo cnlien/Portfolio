@@ -12,6 +12,7 @@ export default [
                     project: 'Old Hickory Custom Woodworking',
                     img: './img/design-projects/old-hickory/oldhickoryww.jpg',
                     description: "I created this logo for my Dad's wood working shop when he was looking to expand his hobby in to doing some freelance work. The plane was something he'd been using as a stamp so I decided to incorporate it as the center piece of the logo. The colors were chosen because most of his work is finished naturally to bring out the colors and grain of the wood. The saw blade is an optional feature that can be removed but offers a type of border should the design need to be displayed with an all white background.",
+                    description2:"",
                     altLogos:
                         [
                             {
@@ -65,7 +66,8 @@ export default [
                     id: 2,
                     project: 'Replate',
                     img: './img/design-projects/replate/replate.jpg',
-                    description:'The Replate logo was designed as part of a build week project at Lambda School. On our build week team I was the front-end designer who was tasked with designing our app and landing page. The pitch for the project was to create an app for restaurants to post up their left over food at the end of the night. The orange color was chosen because it is the official color representation of National Hunger Awareness Month. The end of the logo has a upward curved arch to create the illusion of a smiling face.',
+                    description:"The Replate logo was designed as part of a build week project at Lambda School. On our build week team I was the front-end designer who was tasked with designing our app and landing page. The pitch for the project was to create an app for restaurants to post up their left over food at the end of the night. The orange color was chosen because it is the official color representation of National Hunger Awareness Month. The end of the logo has a upward curved arch to create the illusion of a smiling face.",
+                    description2:"",
                     altLogos:
                         [
                             {
@@ -146,25 +148,44 @@ export default [
                     id: 4,
                     project: 'Potluck Planner',
                     img: './img/design-projects/potluck-planner/potluck-planner.jpg',
-                    description: "Fish Friends Description",
-                    projectlink:'',
+                    description: "Potluck Planner is another Lambda School Build Week project. The main goal with this project was to create an application that allows for users to plan pitch in dinners. There wasn't much more direction with that so I kind of just had fun with this. The colors were picked as a group with the primary color being a dark orange. The icon of the pot was a created from a top view of a cast iron dutch oven that I use to make chili.",
+                    description2:"",
                     colors:
                         [
                             {
                                 id: 1,
-                                hex: '',
+                                hex: '#ef4723',
                                 pantone: '',
-                            },                            
+                            },
+
+                            {
+                                id: 2,
+                                hex: '#777e8c'
+                            }
                         ],
 
                     assets:
                         [
                             {
                                 id: 1,
-                                title: '',
-                                type: '',
-                                src: '',
+                                title: 'Potluck Planner Screenshot',
+                                type: 'Screenshots',
+                                src: './img/design-projects/potluck-planner/image-1.png',
                             },
+
+                            {
+                                id: 2,
+                                title: 'Potluck Planner Screenshot',
+                                src: './img/design-projects/potluck-planner/image-2.png',
+                            },
+
+                            {
+                                id: 3,
+                                title: 'Potluck Planner Screenshot',
+                                src: './img/design-projects/potluck-planner/image-3.png',
+                            },
+
+
                         ]
                 },
 
