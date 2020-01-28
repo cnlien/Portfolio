@@ -23,6 +23,7 @@ const Logos = () => {
                     description={logos.description}
                     project={logos.project}
                     color={logos.colors}
+                    assets={logos.assets}
                 />
             ))}
         </Container>
