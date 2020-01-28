@@ -10,14 +10,15 @@ export default [
                 {
                     id: 1,
                     project: 'Old Hickory Custom Woodworking',
-                    software: 'Test Logo Software',
                     img: './img/design-projects/old-hickory/oldhickoryww.jpg',
                     description: "I created this logo for my Dad's wood working shop when he was looking to expand his hobby in to doing some freelance work. The plane was something he'd been using as a stamp so I decided to incorporate it as the center piece of the logo. The colors were chosen because most of his work is finished naturally to bring out the colors and grain of the wood. The saw blade is an optional feature that can be removed but offers a type of border should the design need to be displayed with an all white background.",
-                    projectlink:'',
                     altLogos:
                         [
-                            'https://via.placeholder.com/1200x738',
-                            'https://via.placeholder.com/1200x738',
+                            {
+                                id: 1,
+                                title: '',
+                                img: '',
+                            }
                         ],
                     colors:
                         [
@@ -57,6 +58,113 @@ export default [
                                 src: './img/design-projects/old-hickory/ohw-bc-combo.png',
                             },
                             
+                        ]
+                },
+
+                {
+                    id: 2,
+                    project: 'Replate',
+                    img: './img/design-projects/replate/replate.jpg',
+                    description:'The Replate logo was designed as part of a build week project at Lambda School. On our build week team I was the front-end designer who was tasked with designing our app and landing page. The pitch for the project was to create an app for restaurants to post up their left over food at the end of the night. The orange color was chosen because it is the official color representation of National Hunger Awareness Month. The end of the logo has a upward curved arch to create the illusion of a smiling face.',
+                    altLogos:
+                        [
+                            {
+                                id: 1,
+                                title: '',
+                                img: '',
+                            }
+                        ],
+
+                    colors:
+                        [
+                            {
+                                id: 1,
+                                hex: '#f9a01f',
+                                pantone: '',
+                            },
+                            {
+                                id: 2,
+                                hex: '#205c70',
+                                pantone: '',
+                            }                         
+                        ],
+
+                    assets:
+                        [
+                            {
+                                id: 1,
+                                title: 'Replate App Marketing Banner',
+                                type: 'Marketing Banner',
+                                src: './img/design-projects/replate/replate-screenshot.jpg',
+                            },
+                        ]
+                },
+
+                {
+                    id: 3,
+                    project: 'Fish Friends',
+                    img: './img/design-projects/fish-friends/fish-friends.jpg',
+                    description: "Fish Friends was the result of the 3rd build week at Lambda School. The goal of this project was to create an app where a user can create their own personal fishing log that could also be shared with friends. The app would also have location data provided so that the user could find the best fishing spots in the area. The logo is designed to mimic a folded map in the shape of an oragami fish.",
+                    description2:"The colors were chosen from what I feel correlates the closest with the fishing community. The greenish colors are similar to that of the appearance of lake water and fish scales. The green can also represent the out doors. The colors also provide a relaxing feeling, one that you'd hope to have while experiencing this hobby.",
+                    projectlink:'',
+                    altLogos:
+                        [
+                            {
+                                id: 1,
+                                title: '',
+                                img: '',
+                            }
+                        ],
+                        
+                    colors:
+                        [
+                            {
+                                id: 1,
+                                hex: '#8aa192',
+                                pantone: '',
+                            },
+                            
+                            {
+                                id: 2,
+                                hex: '#687c70',
+                                pantone: '',
+                            }, 
+                        ],
+
+                    assets:
+                        [
+                            {
+                                id: 1,
+                                title: 'Fish Friends Website Screenshot',
+                                type: 'Screenshot',
+                                src: './img/design-projects/fish-friends/fish-friends-ss.png',
+                            },
+                        ]
+                },
+
+                {
+                    id: 4,
+                    project: 'Potluck Planner',
+                    img: './img/design-projects/potluck-planner/potluck-planner.jpg',
+                    description: "Fish Friends Description",
+                    projectlink:'',
+                    colors:
+                        [
+                            {
+                                id: 1,
+                                hex: '',
+                                pantone: '',
+                            },                            
+                        ],
+
+                    assets:
+                        [
+                            {
+                                id: 1,
+                                title: '',
+                                type: '',
+                                src: '',
+                            },
                         ]
                 },
 

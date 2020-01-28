@@ -21,6 +21,7 @@ const Logos = () => {
                     key={logos.id}
                     img={logos.img}
                     description={logos.description}
+                    description2={logos.description2}
                     project={logos.project}
                     color={logos.colors}
                     assets={logos.assets}

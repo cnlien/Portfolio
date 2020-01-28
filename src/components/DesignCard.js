@@ -40,6 +40,7 @@ const DesignCard = (props) => {
                 <ModalBody>
                     <h4>About This Logo:</h4>
                     <p>{props.description}</p>
+                    <p>{props.description2}</p>
                     <img className="design-card-modal-img" src={props.img} alt={props.project} />
                     
                     <div className="project-info">
