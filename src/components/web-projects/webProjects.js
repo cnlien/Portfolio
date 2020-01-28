@@ -34,6 +34,7 @@ const WebProjects = () => {
                             img={web.img}
                             project={web.project}
                             repositoryLink={web.repositoryLink}
+                            buttonText={web.buttonText}
                             description={web.description}
                             projectlink={web.projectlink}
                         />

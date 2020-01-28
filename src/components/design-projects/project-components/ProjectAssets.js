@@ -1,16 +1,17 @@
 import React from 'react';
 
-const ProjectColors = (props) => {
+const ProjectAsset = (props) => {
 
     return (
-        <>
-        <h5>{props.type}</h5>
-        <img
-            className="project-image"
-            src={props.src}
-            alt={props.type}
-        />
-        </>
+        <div className="project-asset">
+            <h5>{props.type}</h5>
+            <img
+                className="project-image"
+                src={props.src}
+                alt={props.type}
+                style={{maxWidth:"100%"}}
+            />
+        </div>
     //    <div
     //         className="project-color"
     //         style={{backgroundColor: `${props.color}`, height: '100px', width: '100px'}}
@@ -18,4 +19,4 @@ const ProjectColors = (props) => {
     )
 }
 
-export default ProjectColors;
+export default ProjectAsset;

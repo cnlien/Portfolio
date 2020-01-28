@@ -200,6 +200,7 @@ $break-large: 1200px;
     flex-basis: 400px;
     max-width: 30%;
     margin: 10px;
+    cursor: pointer;
 
     .design-card-img {
         border-radius: 0;
@@ -234,6 +235,20 @@ $break-large: 1200px;
                 height: 100px;
                 flex-grow: 1;
                 background-color: grey;
+            }
+        }
+
+        .project-container {
+            border-top: 1px solid #6b6b6b;
+            padding-top: 20px;
+
+            h5 {
+                font-weight: 400;
+                color:#6b6b6b;
+            }
+
+            .project-asset {
+                margin-bottom: 20px;
             }
         }
     

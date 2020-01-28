@@ -10,7 +10,8 @@ import {
 } from 'reactstrap';
 
 import ProjectColors from './design-projects/project-components/ProjectColors';
-import data from './design-projects/designProjData';
+import ProjectAsset from './design-projects/project-components/ProjectAssets';
+
 
 const DesignCard = (props) => {
 
@@ -21,7 +22,7 @@ const DesignCard = (props) => {
     const colors = useState(props.color);
     console.log("Colors from DesignCard.js", colors);
 
-    const assets = useState(props.color);
+    const assets = useState(props.assets);
     console.log("Assets from DesignCard.js", assets);
     
     return(
@@ -55,10 +56,11 @@ const DesignCard = (props) => {
 
                         <h4>Project Assets</h4>
                         <div className="project-container project-assets">
-                            {props.color.map(color => (
-                                <ProjectColors
-                                    key={color.id}
-                                    color={color.hex}
+                            {props.assets.map(asset => (
+                                <ProjectAsset
+                                    key={asset.id}
+                                    src={asset.src}
+                                    type={asset.type}
                                 />
                             ))}
                         </div>

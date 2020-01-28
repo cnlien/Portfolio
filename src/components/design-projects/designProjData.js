@@ -11,7 +11,7 @@ export default [
                     id: 1,
                     project: 'Old Hickory Custom Woodworking',
                     software: 'Test Logo Software',
-                    img: './img/design-projects/oldhickoryww.jpg',
+                    img: './img/design-projects/old-hickory/oldhickoryww.jpg',
                     description: "I created this logo for my Dad's wood working shop when he was looking to expand his hobby in to doing some freelance work. The plane was something he'd been using as a stamp so I decided to incorporate it as the center piece of the logo. The colors were chosen because most of his work is finished naturally to bring out the colors and grain of the wood. The saw blade is an optional feature that can be removed but offers a type of border should the design need to be displayed with an all white background.",
                     projectlink:'',
                     altLogos:
@@ -47,8 +47,16 @@ export default [
                                 id: 1,
                                 title: 'Old Hickory Banner',
                                 type: 'Banner',
-                                src: '',
+                                src: './img/design-projects/old-hickory/oldhickory-banner.jpg',
                             },
+
+                            {
+                                id: 2,
+                                title: 'Old Hickory Business Card',
+                                type: 'Business Card',
+                                src: './img/design-projects/old-hickory/ohw-bc-combo.png',
+                            },
+                            
                         ]
                 },
 

@@ -16,7 +16,7 @@ const ProjectCard = (props) => {
                     </Link>
 
                     <a href={props.repositoryLink} target="_blank" rel="noopener noreferrer">
-                        <Button className="project-url">View The Site</Button>
+                        <Button className="project-url">{props.buttonText}</Button>
                     </a>
                 </div>
 
