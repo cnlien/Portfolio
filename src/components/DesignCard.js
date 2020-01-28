@@ -29,7 +29,6 @@ const DesignCard = (props) => {
         <>
             <Card className="design-card" size="sm">
                 <CardImg className="design-card-img" src={props.img} onClick={toggle} />
-                <CardFooter className="design-card-description">{props.project}</CardFooter>
             </Card>
 
             <Modal isOpen={modal} toggle={toggle} className="design-card-modal" centered size="lg">
