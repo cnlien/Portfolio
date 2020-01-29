@@ -195,7 +195,7 @@ export default [
 
     {
         id: 2,
-        img: './img/design-projects/oldhickoryww.jpg',
+        img: './img/video-projects/video-production.jpg',
         project: 'Video Production',
         projectlink: '/video',
         navTitle: 'Video Production',
