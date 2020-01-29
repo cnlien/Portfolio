@@ -199,16 +199,24 @@ $break-large: 1200px;
     flex-flow: row wrap;
     justify-content: flex-start;
 
-    .design-card {
-        flex-basis: 300px;
-        flex-grow: 0;
-        margin: 10px;
-        cursor: pointer;
-    
-        .design-card-img {
-            border-radius: 0;
-        }
+    @media screen and (max-width: $break-large) {
+        justify-content: center;
     }
+
+        .design-card {
+            flex-basis: 300px;
+            flex-grow: 0;
+            margin: 10px;
+            cursor: pointer;
+
+            @media screen and (max-width: $break-tablet) {
+                flex-grow: 1;
+            }
+        
+            .design-card-img {
+                border-radius: 0;
+            }
+        }
     }
 
 .design-card-modal {
