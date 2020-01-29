@@ -262,3 +262,14 @@ $break-large: 1200px;
     }
 }
 
+.video-production-cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .video-card {
+        flex-grow: 1;
+        margin: 10px;
+    }
+}

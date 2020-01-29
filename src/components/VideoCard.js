@@ -5,18 +5,17 @@ import {Card, CardImg} from 'reactstrap'
 const VideoCard = (props) => {
     
     return(
-        <div>
-            <Card>
-                <iframe
-                    width="100%"
-                    title={props.title}
-                    src={props.embedUrl}
-                    frameborder="0"
-                    allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen="true"
-                />
-            </Card>
-        </div>
+        <Card className="video-card">
+            <iframe
+                width="100%"
+                height="auto"
+                title={props.title}
+                src={props.embedUrl}
+                frameborder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen="true"
+            />
+        </Card>
     )
 }
 

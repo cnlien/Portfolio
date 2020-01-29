@@ -205,7 +205,42 @@ export default [
                     id: 1,
                     embedUrl: 'https://www.youtube.com/embed/9WZ4M8oNbU0',
                     title: "WFMS Storytellers Concert Series",
+                },
 
+                {
+                    id: 2,
+                    embedUrl: 'https://www.youtube.com/embed/IFJ8tnEMNYg',
+                    title: "95.5 WFMS Nash Next featuring Jake Dodds",
+                },
+
+                {
+                    id: 3,
+                    embedUrl: 'https://www.youtube.com/embed/RRfc0H5Buho',
+                    title: "95.5 WFMS Presents Trent Harmon",
+                },
+
+                {
+                    id: 4,
+                    embedUrl: 'https://www.youtube.com/embed/UKtgoswQcb8',
+                    title: "95.5 WFMS Presents Lanco",
+                },
+
+                {
+                    id: 5,
+                    embedUrl: 'https://www.youtube.com/embed/yf8ZBIJ4SBQ',
+                    title: "Timelapse Color Change",
+                },
+
+                {
+                    id: 6,
+                    embedUrl: 'https://www.youtube.com/embed/GrBHRxlQhVs',
+                    title: "Timelapse Color Change",
+                },
+
+                {
+                    id: 7,
+                    embedUrl: 'https://www.youtube.com/embed/sPxF5sSiEz0',
+                    title: "Hockey Team Name Change",
                 },
             ]
     },
