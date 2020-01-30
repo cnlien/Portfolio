@@ -25,7 +25,7 @@ const BodyEnergyFitness = () => {
 
     // THESE MANAGE THE CAROUSEL STATE
     const [galleryImages] = useState(data[8].galleryImages);
-    const [activeIndex, setActiveIndex] = useState(8);
+    const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
     console.log(galleryImages);
 
