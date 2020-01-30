@@ -23,6 +23,7 @@ import BodyEnergyFitness from './components/web-projects/project-components/Body
 // DESIGN PROJECT COMPONENTS
 import Logos from './components/design-projects/project-components/Logos';
 import VideoProduction from './components/design-projects/project-components/VideoProduction';
+import Marketing from './components/design-projects/project-components/Marketing';
 
 // GOOGLE ANALYTICS -- YARN ADD REACT-GA
 import ReactGA from 'react-ga';
@@ -52,6 +53,7 @@ function App() {
           {/* DESIGN ROUTES */}
           <Route path='/logos' component={ Logos } />
           <Route path='/video' component={ VideoProduction } />
+          <Route path='/marketing' component= { Marketing } />
 
         </Container>
       </Switch>

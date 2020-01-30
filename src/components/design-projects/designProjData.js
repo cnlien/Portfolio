@@ -244,4 +244,19 @@ export default [
                 },
             ]
     },
+
+    {
+        id: 3,
+        img: './img/design-projects/marketing-designs/marketing-main.jpg',
+        project: 'Marketing Design',
+        projectlink: '/marketing',
+        navTitle: 'Marketing Design',
+        assets:
+            [
+                {
+                    id: 1,
+                    title:'',
+                },
+            ]
+    },
 ]
