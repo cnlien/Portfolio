@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+
+// DATA
 import data from '../webProjData';
 
+// COMPNENTS
 import {
     Jumbotron,
     Button,
@@ -10,7 +13,13 @@ import {
     CarouselIndicators,
 } from 'reactstrap';
 
+// GOOGLE ANALYTICS
+import ReactGA from 'react-ga';
+
 const SpirtsOfFrenchLick = () => {
+
+    // GOOGLE ANALYTICS TRACKER
+    ReactGA.pageview(window.location.pathname + window.location.search);
 
     const [projectData] = useState(data[1]);
 

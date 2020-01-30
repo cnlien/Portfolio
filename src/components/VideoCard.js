@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Card, CardImg} from 'reactstrap'
+import {Card} from 'reactstrap'
 
 const VideoCard = (props) => {
     

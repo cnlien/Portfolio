@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+
+// DATA
 import data from '../webProjData';
 
+// COMPONENTS
 import {
     Jumbotron,
     Button,
@@ -10,8 +13,14 @@ import {
     CarouselIndicators,
 } from 'reactstrap';
 
+// GOOGLE ANALYTICS
+import ReactGA from 'react-ga';
+
 const FishFriends = () => {
 
+    // GOOGLE ANALYTICS TRACKER
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    
     const [projectData] = useState(data[5]);
 
     // THESE MANAGE THE CAROUSEL STATE

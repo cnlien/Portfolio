@@ -10,7 +10,7 @@ const HomePage = () => {
     return (
         <>
             <div className="heroBanner">
-                <img className="heroImage" src="./img/profile-pic.jpg" alt="Pic of Chris"/>
+                <img className="heroImage" src="./img/portfolio-headshot.jpg" alt="Pic of Chris"/>
 
                 <h1 className="heroName">Chris Lien</h1>
                 <h2 className="heroLocation">Indianapolis, IN, USA</h2>

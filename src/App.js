@@ -23,7 +23,13 @@ import ToDoList from './components/web-projects/project-components/ToDoList';
 import Logos from './components/design-projects/project-components/Logos';
 import VideoProduction from './components/design-projects/project-components/VideoProduction';
 
+// GOOGLE ANALYTICS -- YARN ADD REACT-GA
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-157363760-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 function App() {
+
   return (
     <>
       <Navigation />

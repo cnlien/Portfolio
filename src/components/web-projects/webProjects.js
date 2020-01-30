@@ -1,12 +1,22 @@
 import React, { useState } from 'react';
+
+// DATA
+import data from './webProjData';
+
+// COMPONENTS
+import ProjectCard from '../ProjectCard';
 import { Col, Row } from 'reactstrap';
+
+// STYLES
 import '../../styles/projects.scss';
 
-import data from './webProjData';
-import ProjectCard from '../ProjectCard';
-
+// GOOGLE ANALYTICS
+import ReactGA from 'react-ga';
 
 const WebProjects = () => {
+
+    // GOOGLE ANALYTICS TRACKER
+    ReactGA.pageview(window.location.pathname + window.location.search);
 
     const [projects] = useState(data);
 

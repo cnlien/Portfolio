@@ -1,13 +1,22 @@
 import React, { useState } from 'react';
+
+// DATA
 import data from '../designProjData';
 
+// COMPONENTS
 import { Container } from 'reactstrap';
-
 import DesignCard from '../../DesignCard';
 
+// STYLES
 import "../../../styles/projects.scss"
 
+// GOOGLE ANALYTICS
+import ReactGA from 'react-ga';
+
 const Logos = () => {
+
+    // GOOGLE ANALYTICS TRACKER
+    ReactGA.pageview(window.location.pathname + window.location.search);
 
     const [projectData] = useState(data[0].logos);
     console.log("projectData from Logos.js", projectData)
