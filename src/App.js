@@ -18,6 +18,7 @@ import PotluckPlanner from './components/web-projects/project-components/Potluck
 import FishFriends from './components/web-projects/project-components/FishFriends';
 import CryptoTracker from './components/web-projects/project-components/CryptoTracker';
 import ToDoList from './components/web-projects/project-components/ToDoList';
+import BodyEnergyFitness from './components/web-projects/project-components/BodyEnergyFitness';
 
 // DESIGN PROJECT COMPONENTS
 import Logos from './components/design-projects/project-components/Logos';
@@ -46,6 +47,7 @@ function App() {
           <Route path='/fishfriends' component={ FishFriends } />
           <Route path='/cryptotracker' component={ CryptoTracker } />
           <Route path='/todolist' component={ ToDoList } />
+          <Route path='/bodyenergyfitness' component={ BodyEnergyFitness } />
 
           {/* DESIGN ROUTES */}
           <Route path='/logos' component={ Logos } />

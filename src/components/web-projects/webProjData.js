@@ -383,4 +383,69 @@ export default [
             ],
     },
 
+    {
+        id: 9,
+        project: 'Body Energy Fitness',
+        stack: 'Squarespace, HTML, CSS, LESS, Javascript',
+        img: './img/web-projects/body-energy-fitness.jpg',
+        url: 'https://www.bodyenergyfitness.com/',
+        description: "This was a custom Squarespace website I built for a Pilates studio near Detroit, Michigan. Their main goal was to move away from Wordpress for a more user friendly experience. My expertise on the Squarespace platform made this project an easy fit for their needs. I implemented custom code for a MindBody integration the studio uses to schedule, register and pay for classes they offer. ",
+        projectlink:'/bodyenergyfitness',
+        repositoryLink: 'https://www.bodyenergyfitness.com/',
+        buttonText: 'View the Site',
+        galleryTitle: 'Screenshots',
+        galleryImages:
+            [
+                {
+                    src: './img/web-projects/bodyenergyfitness/image-1.png',
+                    altText: 'Body Energy Fitness Screenshots',
+                },
+
+                {
+                    src: './img/web-projects/bodyenergyfitness/image-2.png',
+                    altText: 'Body Energy Fitness Screenshots',
+                },
+                
+                {
+                    src: './img/web-projects/bodyenergyfitness/image-3.png',
+                    altText: 'Body Energy Fitness Screenshots',
+                },
+                                
+                {
+                    src: './img/web-projects/bodyenergyfitness/image-4.png',
+                    altText: 'Body Energy Fitness Screenshots',
+                },
+                                
+                {
+                    src: './img/web-projects/bodyenergyfitness/image-5.png',
+                    altText: 'Body Energy Fitness Screenshots',
+                },
+
+            ],
+        
+        technologyLogos:
+            [
+                {
+                    src: './img/icons/squarespace.svg',
+                    alt: "React",
+                },
+
+                {
+                    src: './img/icons/less.svg',
+                    alt: "React",
+                },
+
+                {
+                    src: './img/icons/javascript.svg',
+                    alt: "React",
+                },
+
+                {
+                    src: './img/icons/html5.svg',
+                    alt: "React",
+                },
+            ],
+    },
+
+
 ]
